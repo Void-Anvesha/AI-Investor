@@ -47,7 +47,7 @@ export default function DashboardPage() {
   };
 
   useEffect(() => {
-    // Fetch signals only once on component mount
+    // Fetch signals only once on c  omponent mount
     fetchSignals();
   }, []);
 
